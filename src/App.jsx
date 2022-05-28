@@ -2,6 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import Button from "./components/Button";
 import { Form } from "./components/Form";
+import {Ejercicio} from './components/Ejercicio'
+
+
 // Va dentro de un componente
 // const [numeros, setNumeros] = useState(10)
 
@@ -26,6 +29,9 @@ function App() {
         <Button setColor={setColor} />
       </div>
       <Form />
+
+      {/* Ejercicio */}
+      <Ejercicio />
     </div>
   );
 }
